@@ -168,8 +168,6 @@ RUN mkdir -p ${BAZEL_HOME}/_bazel_ubuntu/cache/repos \
              ${BAZELISK_HOME} && \
     chown -R $UID:$GID ${BAZEL_HOME} ${BAZELISK_HOME}
 
-USER $UID
-
 # Copy all Python interpreters, their pip executables, and their standard libraries from the builder.
 COPY --from=builder /usr/local/bin/python3.9 /usr/local/bin/
 COPY --from=builder /usr/local/lib/python3.9 /usr/local/lib/python3.9
