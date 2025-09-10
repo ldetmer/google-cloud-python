@@ -79,6 +79,9 @@ def configure_state_yaml() -> None:
                     "gapic_version.py",
                     "samples/generated_samples/snippet_metadata_",
                     "scripts/client-post-processing",
+                    "samples/snippets/README.rst",
+                    "tests/system",
+                    
                 ],
                 "remove_regex": [f"packages/{package_path.name}"],
                 "tag_format": "{id}-v{version}",
