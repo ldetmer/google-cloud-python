@@ -18,6 +18,7 @@ libraries:
   - samples/generated_samples/snippet_metadata_
   - scripts/client-post-processing
   - tests/system
+  - samples/snippets/README.rst
   remove_regex:
   - packages/google-cloud-dlp
   tag_format: '{id}-v{version}'
