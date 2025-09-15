@@ -4,6 +4,13 @@
 
 [1]: https://pypi.org/project/google-cloud-dlp/#history
 
+## [3.32.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dlp-v3.31.0...google-cloud-dlp-v3.32.0) (2025-09-15)
+
+
+### Features
+
+* generate libraries ([e0cd8aea106ab29629ab9dfba33da26fc7047faf](https://github.com/googleapis/google-cloud-python/commit/e0cd8aea106ab29629ab9dfba33da26fc7047faf))
+
 ## [3.31.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dlp-v3.30.0...google-cloud-dlp-v3.31.0) (2025-06-19)
 
 
